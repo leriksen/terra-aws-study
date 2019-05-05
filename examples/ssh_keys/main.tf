@@ -1,4 +1,4 @@
-module "ssh_key_gen_example" {
+module "ssh_key_gen" {
   source = "../../modules/ssh_keys"
 
   name = "${var.name}"
